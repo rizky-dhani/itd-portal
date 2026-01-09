@@ -19,6 +19,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        \App\Models\EmailRequisition::observe(\App\Observers\EmailRequisitionObserver::class);
     }
 }

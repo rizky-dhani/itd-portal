@@ -1,0 +1,15 @@
+{
+    "agents": [
+        "cursor",
+        "gemini",
+        "opencode"
+    ],
+    "editors": [
+        "cursor",
+        "gemini",
+        "opencode"
+    ],
+    "guidelines": [
+        "filament/filament"
+    ]
+}
